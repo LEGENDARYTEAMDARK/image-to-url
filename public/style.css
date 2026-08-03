@@ -1,0 +1,161 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,sans-serif;
+}
+
+body{
+
+    background:url("https://cdn.phototourl.com/free/2026-08-03-dc5e6532-a29f-4361-8fa7-493de7337011.jpg");
+
+    background-size:cover;
+
+    background-position:center;
+
+    background-repeat:no-repeat;
+
+    background-attachment:fixed;
+
+    height:100vh;
+
+}
+
+.overlay{
+
+    width:100%;
+    height:100vh;
+
+    background:rgba(0,0,0,.45);
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+}
+
+.container{
+
+    width:430px;
+
+    background:rgba(255,255,255,.15);
+
+    backdrop-filter:blur(15px);
+
+    border-radius:20px;
+
+    padding:35px;
+
+    text-align:center;
+
+    box-shadow:0 10px 35px rgba(0,0,0,.4);
+
+}
+
+.logo{
+
+    width:100px;
+
+    height:100px;
+
+    border-radius:50%;
+
+    object-fit:cover;
+
+    border:4px solid white;
+
+    margin-bottom:15px;
+
+}
+
+h1{
+
+    color:white;
+
+    margin-bottom:8px;
+
+}
+
+.subtitle{
+
+    color:#eee;
+
+    margin-bottom:25px;
+
+    font-size:15px;
+
+}
+
+input[type=file]{
+
+    width:100%;
+
+    padding:12px;
+
+    color:white;
+
+    margin-bottom:20px;
+
+}
+
+button{
+
+    width:100%;
+
+    padding:14px;
+
+    border:none;
+
+    border-radius:10px;
+
+    cursor:pointer;
+
+    font-size:16px;
+
+    font-weight:bold;
+
+    background:#00b894;
+
+    color:white;
+
+    margin-top:10px;
+
+    transition:.3s;
+
+}
+
+button:hover{
+
+    background:#019875;
+
+}
+
+#preview{
+
+    width:100%;
+
+    display:none;
+
+    margin-top:20px;
+
+    border-radius:10px;
+
+}
+
+#imageUrl{
+
+    width:100%;
+
+    padding:12px;
+
+    margin-top:20px;
+
+    border:none;
+
+    border-radius:10px;
+
+    outline:none;
+
+}

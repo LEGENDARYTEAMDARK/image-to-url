@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image To URL Converter</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="overlay">
+
+    <div class="container">
+
+        <img src="https://cdn.phototourl.com/free/2026-08-03-dc5e6532-a29f-4361-8fa7-493de7337011.jpg" class="logo">
+
+        <h1>Image To URL Converter</h1>
+
+        <p class="subtitle">
+            Upload your image and get a shareable URL instantly.
+        </p>
+
+        <input type="file" id="imageInput" accept="image/*">
+
+        <button id="uploadBtn">
+            Upload Image
+        </button>
+
+        <img id="preview">
+
+        <input
+            type="text"
+            id="imageUrl"
+            placeholder="Image URL will appear here"
+            readonly>
+
+        <button id="copyBtn">
+            Copy URL
+        </button>
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
